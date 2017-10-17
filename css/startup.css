@@ -1,0 +1,87 @@
+html, body, .cover {
+	height: 100%; }
+section {
+	padding: 100px 0; } 
+h2 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 60px; }
+.cover {
+	background: url('../images/home.jpeg') top left no-repeat ;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+	box-shadow: inset 70px 70px 100px  #000; }
+.cover-text {
+	text-align: center;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle; }
+
+.cover-text h1 {
+	margin: 0;
+	font-size: 60px; } 
+
+.bg-dark {
+	background: #222 !important; }
+
+#testimonial {
+	background: #222; }
+
+#signup .col-md-12 {
+	border: 3px dotted blue; }
+#signup button {
+	cursor: pointer; }
+blockquote {
+	border: none;
+	margin: 0;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	color: #fff;
+	font-size: 30px; }
+
+blockquote cite {
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #888;
+	margin-top: 40px;
+	font-size: 20px; }
+h2 + p {  /* styles all p tags that are directly after an H2 tag */
+	text-align: center;
+	margin-top: -60px; }
+#team {
+	background-color: #222;
+	background-image: url(http://www.transparenttextures.com/patterns/cartographer.png) /*top left no-repeat*/;
+	background-size: cover;
+	color: #fff;
+	text-align: center; }
+#team img, #team p {
+	text-align: left;
+	margin: 20px 0; }
+footer {
+	background: #222;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-family: georgia, times, serif; }
+
+footer a {
+	color: yellow; }
+footer a:hover {
+	color: yellow; }
+
+/* Media Queries */
+
+@media only screen and ( max-width: 568px ) {
+	section {
+		padding: 20px; 	}
+	.cover h1 {
+		font-size: 40px; }
+}
